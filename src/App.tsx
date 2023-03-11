@@ -19,6 +19,7 @@ function App() {
     { id: 11, name: "Christopher", age: 100 },
   ])
 
+
   return (
     <div>
       <NewComponent students={students} />
