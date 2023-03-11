@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { NewComponent } from './site/NewComponent';
+import { NewComponent, NewComponent2, topCars } from './site/NewComponent';
 
 
 
@@ -20,7 +20,10 @@ function App() {
   ])
 
   return (
-    <NewComponent students={students} />
+    <div>
+      <NewComponent students={students} />
+      <NewComponent2 topCars={topCars} />
+    </div>
   );
 }
 
